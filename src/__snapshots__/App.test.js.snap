@@ -1,0 +1,1490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches App the snapshot 1`] = `
+<App>
+  <NavBar>
+    <Styled(Navbar)
+      expand="lg"
+    >
+      <Navbar
+        className="sc-dlMDgC blwItu"
+        collapseOnSelect={false}
+        expand="lg"
+        variant="light"
+      >
+        <nav
+          className="sc-dlMDgC blwItu navbar navbar-expand-lg navbar-light"
+        >
+          <NavbarBrand
+            className="a-brand"
+            href="/"
+          >
+            <a
+              className="a-brand navbar-brand"
+              href="/"
+            >
+              <Image
+                fluid={false}
+                rounded={false}
+                roundedCircle={false}
+                src="Athena_Swan_logo.png"
+                thumbnail={false}
+              >
+                <img
+                  className=""
+                  src="Athena_Swan_logo.png"
+                />
+              </Image>
+            </a>
+          </NavbarBrand>
+          <NavbarToggle
+            aria-controls="navbar-nav"
+            label="Toggle navigation"
+          >
+            <button
+              aria-controls="navbar-nav"
+              aria-label="Toggle navigation"
+              className="navbar-toggler collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="navbar-toggler-icon"
+              />
+            </button>
+          </NavbarToggle>
+          <NavbarCollapse
+            id="navbar-nav"
+          >
+            <ForwardRef
+              appear={false}
+              getDimensionValue={[Function]}
+              id="navbar-nav"
+              in={false}
+              mountOnEnter={false}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                aria-expanded={null}
+                enter={true}
+                exit={true}
+                id="navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <div
+                  aria-expanded={null}
+                  className="navbar-collapse collapse"
+                  id="navbar-nav"
+                >
+                  <Nav
+                    className="ml-auto"
+                    fill={false}
+                    justify={false}
+                  >
+                    <ForwardRef
+                      as="div"
+                      className="ml-auto navbar-nav"
+                      onSelect={[Function]}
+                    >
+                      <div
+                        className="ml-auto navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <Styled(NavItem)>
+                          <NavItem
+                            className="sc-kfYoZR huMiDL"
+                          >
+                            <div
+                              className="sc-kfYoZR huMiDL nav-item"
+                            >
+                              <NavLink
+                                as={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "render": [Function],
+                                  }
+                                }
+                                className="nav-link-auth"
+                                disabled={false}
+                                onClick={[Function]}
+                              >
+                                <ForwardRef
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "render": [Function],
+                                    }
+                                  }
+                                  className="nav-link-auth nav-link"
+                                  disabled={false}
+                                  onClick={[Function]}
+                                >
+                                  <SafeAnchor
+                                    className="nav-link-auth nav-link"
+                                    data-rb-event-key={null}
+                                    disabled={false}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      className="nav-link-auth nav-link"
+                                      data-rb-event-key={null}
+                                      href="#"
+                                      onClick={[Function]}
+                                      onKeyDown={[Function]}
+                                      role="button"
+                                    >
+                                      <BsBoxArrowInLeft
+                                        size={30}
+                                      >
+                                        <IconBase
+                                          attr={
+                                            Object {
+                                              "fill": "currentColor",
+                                              "viewBox": "0 0 16 16",
+                                            }
+                                          }
+                                          size={30}
+                                        >
+                                          <svg
+                                            fill="currentColor"
+                                            height={30}
+                                            stroke="currentColor"
+                                            strokeWidth="0"
+                                            style={
+                                              Object {
+                                                "color": undefined,
+                                              }
+                                            }
+                                            viewBox="0 0 16 16"
+                                            width={30}
+                                            xmlns="http://www.w3.org/2000/svg"
+                                          >
+                                            <path
+                                              clipRule="evenodd"
+                                              d="M7.854 11.354a.5.5 0 000-.708L5.207 8l2.647-2.646a.5.5 0 10-.708-.708l-3 3a.5.5 0 000 .708l3 3a.5.5 0 00.708 0z"
+                                              fillRule="evenodd"
+                                              key="0"
+                                            />
+                                            <path
+                                              clipRule="evenodd"
+                                              d="M15 8a.5.5 0 00-.5-.5h-9a.5.5 0 000 1h9A.5.5 0 0015 8z"
+                                              fillRule="evenodd"
+                                              key="1"
+                                            />
+                                            <path
+                                              clipRule="evenodd"
+                                              d="M2.5 14.5A1.5 1.5 0 011 13V3a1.5 1.5 0 011.5-1.5h8A1.5 1.5 0 0112 3v1.5a.5.5 0 01-1 0V3a.5.5 0 00-.5-.5h-8A.5.5 0 002 3v10a.5.5 0 00.5.5h8a.5.5 0 00.5-.5v-1.5a.5.5 0 011 0V13a1.5 1.5 0 01-1.5 1.5h-8z"
+                                              fillRule="evenodd"
+                                              key="2"
+                                            />
+                                          </svg>
+                                        </IconBase>
+                                      </BsBoxArrowInLeft>
+                                      Login
+                                    </a>
+                                  </SafeAnchor>
+                                </ForwardRef>
+                              </NavLink>
+                            </div>
+                          </NavItem>
+                        </Styled(NavItem)>
+                        <NavDropdown
+                          id="basic-nav-dropdown"
+                          title="Chatroom Forums"
+                        >
+                          <Dropdown
+                            className="nav-item"
+                            navbar={false}
+                          >
+                            <ReactOverlaysDropdown
+                              itemSelector=".dropdown-item:not(.disabled):not(:disabled)"
+                              onToggle={[Function]}
+                            >
+                              <div
+                                className="nav-item dropdown"
+                              >
+                                <DropdownToggle
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "as": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "render": [Function],
+                                        },
+                                        "disabled": false,
+                                      },
+                                      "render": [Function],
+                                    }
+                                  }
+                                  eventKey={null}
+                                  id="basic-nav-dropdown"
+                                >
+                                  <NavLink
+                                    aria-expanded={false}
+                                    aria-haspopup={true}
+                                    as={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "render": [Function],
+                                      }
+                                    }
+                                    className="dropdown-toggle"
+                                    disabled={false}
+                                    eventKey={null}
+                                    id="basic-nav-dropdown"
+                                    onClick={[Function]}
+                                  >
+                                    <ForwardRef
+                                      aria-expanded={false}
+                                      aria-haspopup={true}
+                                      as={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "render": [Function],
+                                        }
+                                      }
+                                      className="dropdown-toggle nav-link"
+                                      disabled={false}
+                                      eventKey={null}
+                                      id="basic-nav-dropdown"
+                                      onClick={[Function]}
+                                    >
+                                      <SafeAnchor
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        className="dropdown-toggle nav-link"
+                                        data-rb-event-key={null}
+                                        disabled={false}
+                                        id="basic-nav-dropdown"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="dropdown-toggle nav-link"
+                                          data-rb-event-key={null}
+                                          href="#"
+                                          id="basic-nav-dropdown"
+                                          onClick={[Function]}
+                                          onKeyDown={[Function]}
+                                          role="button"
+                                        >
+                                          Chatroom Forums
+                                        </a>
+                                      </SafeAnchor>
+                                    </ForwardRef>
+                                  </NavLink>
+                                </DropdownToggle>
+                                <DropdownMenu
+                                  align="left"
+                                  alignRight={false}
+                                  flip={true}
+                                />
+                              </div>
+                            </ReactOverlaysDropdown>
+                          </Dropdown>
+                        </NavDropdown>
+                        <NavItem>
+                          <div
+                            className="nav-item"
+                          >
+                            <NavLink
+                              as={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "render": [Function],
+                                }
+                              }
+                              disabled={false}
+                              href="/articles-list"
+                            >
+                              <ForwardRef
+                                as={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "render": [Function],
+                                  }
+                                }
+                                className="nav-link"
+                                disabled={false}
+                                href="/articles-list"
+                              >
+                                <SafeAnchor
+                                  className="nav-link"
+                                  data-rb-event-key="/articles-list"
+                                  disabled={false}
+                                  href="/articles-list"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="nav-link"
+                                    data-rb-event-key="/articles-list"
+                                    href="/articles-list"
+                                    onClick={[Function]}
+                                    onKeyDown={[Function]}
+                                  >
+                                    Articles
+                                  </a>
+                                </SafeAnchor>
+                              </ForwardRef>
+                            </NavLink>
+                          </div>
+                        </NavItem>
+                      </div>
+                    </ForwardRef>
+                  </Nav>
+                </div>
+              </Transition>
+            </ForwardRef>
+          </NavbarCollapse>
+        </nav>
+      </Navbar>
+    </Styled(Navbar)>
+  </NavBar>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Layout>
+        <Styled(Container)>
+          <Container
+            className="sc-bCwfaz sUSob"
+            fluid={false}
+          >
+            <div
+              className="sc-bCwfaz sUSob container"
+            >
+              <Switch>
+                <Route
+                  component={[Function]}
+                  computedMatch={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  exact={true}
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  path="/"
+                >
+                  <Homepage
+                    history={
+                      Object {
+                        "action": "POP",
+                        "block": [Function],
+                        "createHref": [Function],
+                        "go": [Function],
+                        "goBack": [Function],
+                        "goForward": [Function],
+                        "length": 1,
+                        "listen": [Function],
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "push": [Function],
+                        "replace": [Function],
+                      }
+                    }
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
+                    }
+                    match={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
+                    }
+                  >
+                    <styled.div>
+                      <div
+                        className="sc-bdnxRM diwIwo"
+                      >
+                        <Styled(Carousel)
+                          interval={null}
+                        >
+                          <Carousel
+                            className="sc-hKFxyN kXniUF"
+                            controls={true}
+                            defaultActiveIndex={0}
+                            fade={false}
+                            indicators={true}
+                            interval={null}
+                            keyboard={true}
+                            nextIcon={
+                              <span
+                                aria-hidden="true"
+                                className="carousel-control-next-icon"
+                              />
+                            }
+                            nextLabel="Next"
+                            pause="hover"
+                            prevIcon={
+                              <span
+                                aria-hidden="true"
+                                className="carousel-control-prev-icon"
+                              />
+                            }
+                            prevLabel="Previous"
+                            slide={true}
+                            touch={true}
+                            wrap={true}
+                          >
+                            <div
+                              className="sc-hKFxyN kXniUF carousel slide"
+                              onKeyDown={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                            >
+                              <ol
+                                className="carousel-indicators"
+                              >
+                                <li
+                                  className="active"
+                                  key="0/.0"
+                                  onClick={[Function]}
+                                />
+                                <li
+                                  key="1/.1"
+                                  onClick={[Function]}
+                                />
+                              </ol>
+                              <div
+                                className="carousel-inner"
+                              >
+                                <Transition
+                                  addEndListener={[Function]}
+                                  appear={false}
+                                  enter={true}
+                                  exit={true}
+                                  in={true}
+                                  key=".0"
+                                  mountOnEnter={false}
+                                  onEnter={[Function]}
+                                  onEntered={[Function]}
+                                  onEntering={[Function]}
+                                  onExit={[Function]}
+                                  onExited={[Function]}
+                                  onExiting={[Function]}
+                                  unmountOnExit={false}
+                                >
+                                  <CarouselItem
+                                    className="carousel-image-one active"
+                                  >
+                                    <div
+                                      className="carousel-image-one active carousel-item"
+                                    >
+                                      <CarouselCaption>
+                                        <div
+                                          className="carousel-caption"
+                                        >
+                                          <h1>
+                                            Celebrating Equality, Diversity and Inclusion For Women
+                                          </h1>
+                                        </div>
+                                      </CarouselCaption>
+                                    </div>
+                                  </CarouselItem>
+                                </Transition>
+                                <Transition
+                                  addEndListener={[Function]}
+                                  appear={false}
+                                  enter={true}
+                                  exit={true}
+                                  in={false}
+                                  key=".1"
+                                  mountOnEnter={false}
+                                  onEnter={[Function]}
+                                  onEntered={[Function]}
+                                  onEntering={[Function]}
+                                  onExit={[Function]}
+                                  onExited={[Function]}
+                                  onExiting={[Function]}
+                                  unmountOnExit={false}
+                                >
+                                  <CarouselItem
+                                    className="carousel-image-two"
+                                  >
+                                    <div
+                                      className="carousel-image-two carousel-item"
+                                    >
+                                      <CarouselCaption>
+                                        <div
+                                          className="carousel-caption"
+                                        >
+                                          <h1>
+                                            Lorem Ipsum
+                                          </h1>
+                                        </div>
+                                      </CarouselCaption>
+                                    </div>
+                                  </CarouselItem>
+                                </Transition>
+                              </div>
+                              <SafeAnchor
+                                className="carousel-control-prev"
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="carousel-control-prev"
+                                  href="#"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="button"
+                                >
+                                  <span
+                                    aria-hidden="true"
+                                    className="carousel-control-prev-icon"
+                                  />
+                                  <span
+                                    className="sr-only"
+                                  >
+                                    Previous
+                                  </span>
+                                </a>
+                              </SafeAnchor>
+                              <SafeAnchor
+                                className="carousel-control-next"
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="carousel-control-next"
+                                  href="#"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="button"
+                                >
+                                  <span
+                                    aria-hidden="true"
+                                    className="carousel-control-next-icon"
+                                  />
+                                  <span
+                                    className="sr-only"
+                                  >
+                                    Next
+                                  </span>
+                                </a>
+                              </SafeAnchor>
+                            </div>
+                          </Carousel>
+                        </Styled(Carousel)>
+                        <styled.section>
+                          <section
+                            className="sc-gtsrHT kVCvOF"
+                          >
+                            <h1>
+                              We Are Here For You
+                            </h1>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                          </section>
+                        </styled.section>
+                        <styled.section>
+                          <section
+                            className="sc-gtsrHT kVCvOF"
+                          >
+                            <h1>
+                              Our Forums
+                            </h1>
+                            <styled.div>
+                              <div
+                                className="sc-dlnjwi bWVDFm"
+                              >
+                                <Card
+                                  body={false}
+                                  key="age"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Age
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/age"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/age"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="disability"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Disability
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/disability"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/disability"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="gender-reassignment"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Gender Reassignment
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/gender-reassignment"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/gender-reassignment"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="marriage-and-civil-partnership"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Marriage And Civil Partnership
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/marriage-and-civil-partnership"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/marriage-and-civil-partnership"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="pregnancy-and-maternity"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Pregnancy And Maternity
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/pregnancy-and-maternity"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/pregnancy-and-maternity"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="race"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Race
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/race"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/race"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="religion-or-belief"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Religion Or Belief
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/religion-or-belief"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/religion-or-belief"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="sex"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Sex
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/sex"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/sex"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                                <Card
+                                  body={false}
+                                  key="sexual-orientation"
+                                  style={
+                                    Object {
+                                      "margin": "1rem",
+                                      "width": "18rem",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="card"
+                                    style={
+                                      Object {
+                                        "margin": "1rem",
+                                        "width": "18rem",
+                                      }
+                                    }
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <CardTitle>
+                                          <ForwardRef
+                                            className="card-title"
+                                          >
+                                            <div
+                                              className="card-title h5"
+                                            >
+                                              Sexual Orientation
+                                            </div>
+                                          </ForwardRef>
+                                        </CardTitle>
+                                        <CardText>
+                                          <p
+                                            className="card-text"
+                                          >
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                          </p>
+                                        </CardText>
+                                        <CardLink
+                                          href="/chat-forum/sexual-orientation"
+                                        >
+                                          <a
+                                            className="card-link"
+                                            href="/chat-forum/sexual-orientation"
+                                          >
+                                            Chat Forum
+                                          </a>
+                                        </CardLink>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                              </div>
+                            </styled.div>
+                          </section>
+                        </styled.section>
+                      </div>
+                    </styled.div>
+                  </Homepage>
+                </Route>
+              </Switch>
+            </div>
+          </Container>
+        </Styled(Container)>
+      </Layout>
+      <Footer>
+        <styled.footer>
+          <footer
+            className="sc-fKgJPI femJLQ"
+          >
+            <div
+              className="div-wrapper"
+            >
+              <div
+                className="logo-div"
+              >
+                <Image
+                  fluid={true}
+                  rounded={false}
+                  roundedCircle={false}
+                  src="Athena_Swan_Logo_Simple.jpeg"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  thumbnail={false}
+                >
+                  <img
+                    className="img-fluid"
+                    src="Athena_Swan_Logo_Simple.jpeg"
+                    style={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
+              </div>
+              <ListGroup
+                className="social-div"
+                horizontal={true}
+              >
+                <ForwardRef
+                  as="div"
+                  className="social-div list-group list-group-horizontal"
+                  onSelect={[Function]}
+                >
+                  <div
+                    className="social-div list-group list-group-horizontal"
+                    onKeyDown={[Function]}
+                  >
+                    <ListGroupItem
+                      action={true}
+                      active={false}
+                      disabled={false}
+                      href="#"
+                    >
+                      <ForwardRef
+                        as="a"
+                        className="list-group-item list-group-item-action"
+                        disabled={false}
+                        href="#"
+                        onClick={[Function]}
+                      >
+                        <a
+                          className="list-group-item list-group-item-action"
+                          data-rb-event-key="#"
+                          disabled={false}
+                          href="#"
+                          onClick={[Function]}
+                        >
+                          <FaTwitter
+                            fill="#fff"
+                            size={30}
+                            stroke="#fff"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 512 512",
+                                }
+                              }
+                              fill="#fff"
+                              size={30}
+                              stroke="#fff"
+                            >
+                              <svg
+                                fill="#fff"
+                                height={30}
+                                stroke="#fff"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 512 512"
+                                width={30}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FaTwitter>
+                        </a>
+                      </ForwardRef>
+                    </ListGroupItem>
+                    <ListGroupItem
+                      action={true}
+                      active={false}
+                      disabled={false}
+                      href="#"
+                    >
+                      <ForwardRef
+                        as="a"
+                        className="list-group-item list-group-item-action"
+                        disabled={false}
+                        href="#"
+                        onClick={[Function]}
+                      >
+                        <a
+                          className="list-group-item list-group-item-action"
+                          data-rb-event-key="#"
+                          disabled={false}
+                          href="#"
+                          onClick={[Function]}
+                        >
+                          <FaFacebook
+                            fill="#fff"
+                            size={30}
+                            stroke="#fff"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 512 512",
+                                }
+                              }
+                              fill="#fff"
+                              size={30}
+                              stroke="#fff"
+                            >
+                              <svg
+                                fill="#fff"
+                                height={30}
+                                stroke="#fff"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 512 512"
+                                width={30}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FaFacebook>
+                        </a>
+                      </ForwardRef>
+                    </ListGroupItem>
+                    <ListGroupItem
+                      action={true}
+                      active={false}
+                      disabled={false}
+                      href="#"
+                    >
+                      <ForwardRef
+                        as="a"
+                        className="list-group-item list-group-item-action"
+                        disabled={false}
+                        href="#"
+                        onClick={[Function]}
+                      >
+                        <a
+                          className="list-group-item list-group-item-action"
+                          data-rb-event-key="#"
+                          disabled={false}
+                          href="#"
+                          onClick={[Function]}
+                        >
+                          <FaInstagram
+                            fill="#fff"
+                            size={30}
+                            stroke="#fff"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 448 512",
+                                }
+                              }
+                              fill="#fff"
+                              size={30}
+                              stroke="#fff"
+                            >
+                              <svg
+                                fill="#fff"
+                                height={30}
+                                stroke="#fff"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 448 512"
+                                width={30}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FaInstagram>
+                        </a>
+                      </ForwardRef>
+                    </ListGroupItem>
+                    <ListGroupItem
+                      action={true}
+                      active={false}
+                      disabled={false}
+                      href="#"
+                    >
+                      <ForwardRef
+                        as="a"
+                        className="list-group-item list-group-item-action"
+                        disabled={false}
+                        href="#"
+                        onClick={[Function]}
+                      >
+                        <a
+                          className="list-group-item list-group-item-action"
+                          data-rb-event-key="#"
+                          disabled={false}
+                          href="#"
+                          onClick={[Function]}
+                        >
+                          <FaYoutube
+                            fill="#fff"
+                            size={30}
+                            stroke="#fff"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 576 512",
+                                }
+                              }
+                              fill="#fff"
+                              size={30}
+                              stroke="#fff"
+                            >
+                              <svg
+                                fill="#fff"
+                                height={30}
+                                stroke="#fff"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 576 512"
+                                width={30}
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </FaYoutube>
+                        </a>
+                      </ForwardRef>
+                    </ListGroupItem>
+                  </div>
+                </ForwardRef>
+              </ListGroup>
+            </div>
+            <p>
+              Report Issues
+               
+              <Link
+                style={
+                  Object {
+                    "color": "#fff",
+                  }
+                }
+                to="/report-issues"
+              >
+                <LinkAnchor
+                  href="/report-issues"
+                  navigate={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                    }
+                  }
+                >
+                  <a
+                    href="/report-issues"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "color": "#fff",
+                      }
+                    }
+                  >
+                    Here
+                  </a>
+                </LinkAnchor>
+              </Link>
+              .
+            </p>
+            <div>
+              <p>
+                © 
+                2021
+                 Athen Swan. All rights reserved.
+              </p>
+            </div>
+          </footer>
+        </styled.footer>
+      </Footer>
+    </Router>
+  </BrowserRouter>
+</App>
+`;

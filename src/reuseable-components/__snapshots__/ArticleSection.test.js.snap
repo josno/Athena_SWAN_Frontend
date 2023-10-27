@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Section matches the snapshot 1`] = `
+<ArticleSection
+  by="Test Person"
+  categories={
+    Array [
+      "race",
+      "age",
+    ]
+  }
+  content={
+    Array [
+      "Lorem",
+      "ipsum",
+    ]
+  }
+  date="5/28/2021"
+  title="Test Article"
+>
+  <h1>
+    Test Article
+  </h1>
+  <p
+    style={
+      Object {
+        "color": "#525252",
+      }
+    }
+  >
+    <BsFillPersonFill>
+      <IconBase
+        attr={
+          Object {
+            "fill": "currentColor",
+            "viewBox": "0 0 16 16",
+          }
+        }
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z"
+            fillRule="evenodd"
+            key="0"
+          />
+        </svg>
+      </IconBase>
+    </BsFillPersonFill>
+     
+    Test Person
+     | 
+    <BsClockFill>
+      <IconBase
+        attr={
+          Object {
+            "fill": "currentColor",
+            "viewBox": "0 0 16 16",
+          }
+        }
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M16 8A8 8 0 110 8a8 8 0 0116 0zM8 3.5a.5.5 0 00-1 0V9a.5.5 0 00.252.434l3.5 2a.5.5 0 00.496-.868L8 8.71V3.5z"
+            fillRule="evenodd"
+            key="0"
+          />
+        </svg>
+      </IconBase>
+    </BsClockFill>
+     
+    5/28/2021
+     | 
+    <BsFolderFill>
+      <IconBase
+        attr={
+          Object {
+            "fill": "currentColor",
+            "viewBox": "0 0 16 16",
+          }
+        }
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.828 3h3.982a2 2 0 011.992 2.181l-.637 7A2 2 0 0113.174 14H2.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L.5 3a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 009.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 006.172 2H2.5a1 1 0 00-1 .981l.006.139z"
+            fillRule="evenodd"
+            key="0"
+          />
+        </svg>
+      </IconBase>
+    </BsFolderFill>
+     
+    <span
+      key="race"
+    >
+       
+      race
+      , 
+    </span>
+    <span
+      key="age"
+    >
+      age
+    </span>
+  </p>
+  <p
+    key="0"
+  >
+    Lorem
+  </p>
+  <p
+    key="1"
+  >
+    ipsum
+  </p>
+</ArticleSection>
+`;

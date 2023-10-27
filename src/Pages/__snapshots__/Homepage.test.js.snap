@@ -1,0 +1,705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage matches App the snapshot 1`] = `
+<Homepage>
+  <styled.div>
+    <div
+      className="sc-bdnxRM diwIwo"
+    >
+      <Styled(Carousel)
+        interval={null}
+      >
+        <Carousel
+          className="sc-hKFxyN kXniUF"
+          controls={true}
+          defaultActiveIndex={0}
+          fade={false}
+          indicators={true}
+          interval={null}
+          keyboard={true}
+          nextIcon={
+            <span
+              aria-hidden="true"
+              className="carousel-control-next-icon"
+            />
+          }
+          nextLabel="Next"
+          pause="hover"
+          prevIcon={
+            <span
+              aria-hidden="true"
+              className="carousel-control-prev-icon"
+            />
+          }
+          prevLabel="Previous"
+          slide={true}
+          touch={true}
+          wrap={true}
+        >
+          <div
+            className="sc-hKFxyN kXniUF carousel slide"
+            onKeyDown={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+          >
+            <ol
+              className="carousel-indicators"
+            >
+              <li
+                className="active"
+                key="0/.0"
+                onClick={[Function]}
+              />
+              <li
+                key="1/.1"
+                onClick={[Function]}
+              />
+            </ol>
+            <div
+              className="carousel-inner"
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                enter={true}
+                exit={true}
+                in={true}
+                key=".0"
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                unmountOnExit={false}
+              >
+                <CarouselItem
+                  className="carousel-image-one active"
+                >
+                  <div
+                    className="carousel-image-one active carousel-item"
+                  >
+                    <CarouselCaption>
+                      <div
+                        className="carousel-caption"
+                      >
+                        <h1>
+                          Celebrating Equality, Diversity and Inclusion For Women
+                        </h1>
+                      </div>
+                    </CarouselCaption>
+                  </div>
+                </CarouselItem>
+              </Transition>
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                enter={true}
+                exit={true}
+                in={false}
+                key=".1"
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                unmountOnExit={false}
+              >
+                <CarouselItem
+                  className="carousel-image-two"
+                >
+                  <div
+                    className="carousel-image-two carousel-item"
+                  >
+                    <CarouselCaption>
+                      <div
+                        className="carousel-caption"
+                      >
+                        <h1>
+                          Lorem Ipsum
+                        </h1>
+                      </div>
+                    </CarouselCaption>
+                  </div>
+                </CarouselItem>
+              </Transition>
+            </div>
+            <SafeAnchor
+              className="carousel-control-prev"
+              onClick={[Function]}
+            >
+              <a
+                className="carousel-control-prev"
+                href="#"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Previous
+                </span>
+              </a>
+            </SafeAnchor>
+            <SafeAnchor
+              className="carousel-control-next"
+              onClick={[Function]}
+            >
+              <a
+                className="carousel-control-next"
+                href="#"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Next
+                </span>
+              </a>
+            </SafeAnchor>
+          </div>
+        </Carousel>
+      </Styled(Carousel)>
+      <styled.section>
+        <section
+          className="sc-gtsrHT kVCvOF"
+        >
+          <h1>
+            We Are Here For You
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+      </styled.section>
+      <styled.section>
+        <section
+          className="sc-gtsrHT kVCvOF"
+        >
+          <h1>
+            Our Forums
+          </h1>
+          <styled.div>
+            <div
+              className="sc-dlnjwi bWVDFm"
+            >
+              <Card
+                body={false}
+                key="age"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Age
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/age"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/age"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="disability"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Disability
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/disability"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/disability"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="gender-reassignment"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Gender Reassignment
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/gender-reassignment"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/gender-reassignment"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="marriage-and-civil-partnership"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Marriage And Civil Partnership
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/marriage-and-civil-partnership"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/marriage-and-civil-partnership"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="pregnancy-and-maternity"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Pregnancy And Maternity
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/pregnancy-and-maternity"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/pregnancy-and-maternity"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="race"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Race
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/race"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/race"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="religion-or-belief"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Religion Or Belief
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/religion-or-belief"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/religion-or-belief"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="sex"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Sex
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/sex"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/sex"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+              <Card
+                body={false}
+                key="sexual-orientation"
+                style={
+                  Object {
+                    "margin": "1rem",
+                    "width": "18rem",
+                  }
+                }
+              >
+                <div
+                  className="card"
+                  style={
+                    Object {
+                      "margin": "1rem",
+                      "width": "18rem",
+                    }
+                  }
+                >
+                  <CardBody>
+                    <div
+                      className="card-body"
+                    >
+                      <CardTitle>
+                        <ForwardRef
+                          className="card-title"
+                        >
+                          <div
+                            className="card-title h5"
+                          >
+                            Sexual Orientation
+                          </div>
+                        </ForwardRef>
+                      </CardTitle>
+                      <CardText>
+                        <p
+                          className="card-text"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </CardText>
+                      <CardLink
+                        href="/chat-forum/sexual-orientation"
+                      >
+                        <a
+                          className="card-link"
+                          href="/chat-forum/sexual-orientation"
+                        >
+                          Chat Forum
+                        </a>
+                      </CardLink>
+                    </div>
+                  </CardBody>
+                </div>
+              </Card>
+            </div>
+          </styled.div>
+        </section>
+      </styled.section>
+    </div>
+  </styled.div>
+</Homepage>
+`;

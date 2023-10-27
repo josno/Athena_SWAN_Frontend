@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlesList matches the snapshot 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ArticlesList
+      articles={
+        Array [
+          Object {
+            "content": Array [
+              "lorem",
+              "ipsum",
+            ],
+            "createdDate": Object {
+              "nanoseconds": "",
+              "seconds": 1621947600,
+            },
+            "id": "1tlr8HJfbi42ml7WxXpk",
+            "likes": 30,
+            "name": "One Love",
+            "photoUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+            "writtenBy": "Bob Marley",
+          },
+        ]
+      }
+      feature={true}
+    >
+      <styled.div>
+        <div
+          className="sc-bdnxRM dimPrw"
+        >
+          <Styled(Card)
+            key="0"
+          >
+            <Card
+              body={false}
+              className="sc-gtsrHT iJHCcq"
+            >
+              <div
+                className="sc-gtsrHT iJHCcq card"
+              >
+                <CardImg
+                  src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  variant="top"
+                >
+                  <img
+                    className="card-img-top"
+                    src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  />
+                </CardImg>
+                <CardBody>
+                  <div
+                    className="card-body"
+                  >
+                    <Link
+                      className="article-list-item"
+                      to="/article/one-love/1tlr8HJfbi42ml7WxXpk"
+                    >
+                      <LinkAnchor
+                        className="article-list-item"
+                        href="/article/one-love/1tlr8HJfbi42ml7WxXpk"
+                        navigate={[Function]}
+                      >
+                        <a
+                          className="article-list-item"
+                          href="/article/one-love/1tlr8HJfbi42ml7WxXpk"
+                          onClick={[Function]}
+                        >
+                          <CardTitle>
+                            <ForwardRef
+                              className="card-title"
+                            >
+                              <div
+                                className="card-title h5"
+                              />
+                            </ForwardRef>
+                          </CardTitle>
+                          <CardSubtitle
+                            className="mb-2 text-muted"
+                          >
+                            <ForwardRef
+                              className="mb-2 text-muted card-subtitle"
+                            >
+                              <div
+                                className="mb-2 text-muted card-subtitle h6"
+                              >
+                                Bob Marley
+                                 | 
+                                Tuesday, May 25, 2021
+                                 
+                              </div>
+                            </ForwardRef>
+                          </CardSubtitle>
+                          <CardText>
+                            <p
+                              className="card-text"
+                            >
+                              lorem
+                              ..
+                            </p>
+                          </CardText>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                    <button
+                      className="likes-btn"
+                      onClick={[Function]}
+                    >
+                      <BsHeart
+                        className="likes-icon"
+                        size={30}
+                      >
+                        <IconBase
+                          attr={
+                            Object {
+                              "fill": "currentColor",
+                              "viewBox": "0 0 16 16",
+                            }
+                          }
+                          className="likes-icon"
+                          size={30}
+                        >
+                          <svg
+                            className="likes-icon"
+                            fill="currentColor"
+                            height={30}
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
+                              Object {
+                                "color": undefined,
+                              }
+                            }
+                            viewBox="0 0 16 16"
+                            width={30}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clipRule="evenodd"
+                              d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z"
+                              fillRule="evenodd"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </BsHeart>
+                      <span>
+                        30
+                      </span>
+                    </button>
+                  </div>
+                </CardBody>
+              </div>
+            </Card>
+          </Styled(Card)>
+        </div>
+      </styled.div>
+    </ArticlesList>
+  </Router>
+</BrowserRouter>
+`;

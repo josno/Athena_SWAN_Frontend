@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentSection matches the snapshot 1`] = `
+<CommentSection
+  comments={
+    Array [
+      Object {
+        "comment": "This is a comment",
+        "createdDate": Object {
+          "nanoseconds": "",
+          "seconds": 1621947600,
+        },
+        "name": "Test Person",
+      },
+      Object {
+        "comment": "This is a comment",
+        "createdDate": Object {
+          "nanoseconds": "",
+          "seconds": 1621947600,
+        },
+        "name": "Test Person 2",
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-bdnxRM iSbcTV"
+    >
+      <h2>
+         Article Comments
+      </h2>
+      <div
+        className="comment-div"
+        key="0"
+      >
+        <div
+          className="comment-div__div"
+        >
+          <h5>
+            <span
+              className="comment-div__icon"
+            >
+              <BsPeopleCircle
+                size={42}
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "currentColor",
+                      "viewBox": "0 0 16 16",
+                    }
+                  }
+                  size={42}
+                >
+                  <svg
+                    fill="currentColor"
+                    height={42}
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 16 16"
+                    width={42}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 008 15a6.987 6.987 0 005.468-2.63z"
+                      key="0"
+                    />
+                    <path
+                      clipRule="evenodd"
+                      d="M8 9a3 3 0 100-6 3 3 0 000 6z"
+                      fillRule="evenodd"
+                      key="1"
+                    />
+                    <path
+                      clipRule="evenodd"
+                      d="M8 1a7 7 0 100 14A7 7 0 008 1zM0 8a8 8 0 1116 0A8 8 0 010 8z"
+                      fillRule="evenodd"
+                      key="2"
+                    />
+                  </svg>
+                </IconBase>
+              </BsPeopleCircle>
+            </span>
+            Test Person
+          </h5>
+          <h5>
+            Tuesday, May 25, 2021
+          </h5>
+        </div>
+        <div>
+          <p>
+            This is a comment
+          </p>
+        </div>
+        <div
+          className="comment-div__voting"
+        >
+          <div
+            className="comment-likes__div"
+          >
+            <span
+              className="comment-likes__span "
+              onClick={[Function]}
+            >
+              <FiThumbsDown
+                className="icon dislike "
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "none",
+                      "stroke": "currentColor",
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "2",
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  className="icon dislike "
+                >
+                  <svg
+                    className="icon dislike "
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </FiThumbsDown>
+            </span>
+            <span
+              className="comment-count"
+            />
+          </div>
+          <div
+            className="comment-likes__div"
+          >
+            <span
+              className="comment-likes__span "
+              onClick={[Function]}
+            >
+              <FiThumbsUp
+                className="icon like"
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "none",
+                      "stroke": "currentColor",
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "2",
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  className="icon like"
+                >
+                  <svg
+                    className="icon like"
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </FiThumbsUp>
+            </span>
+            <span
+              className="comment-count"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="comment-div"
+        key="1"
+      >
+        <div
+          className="comment-div__div"
+        >
+          <h5>
+            <span
+              className="comment-div__icon"
+            >
+              <BsPeopleCircle
+                size={42}
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "currentColor",
+                      "viewBox": "0 0 16 16",
+                    }
+                  }
+                  size={42}
+                >
+                  <svg
+                    fill="currentColor"
+                    height={42}
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 16 16"
+                    width={42}
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 008 15a6.987 6.987 0 005.468-2.63z"
+                      key="0"
+                    />
+                    <path
+                      clipRule="evenodd"
+                      d="M8 9a3 3 0 100-6 3 3 0 000 6z"
+                      fillRule="evenodd"
+                      key="1"
+                    />
+                    <path
+                      clipRule="evenodd"
+                      d="M8 1a7 7 0 100 14A7 7 0 008 1zM0 8a8 8 0 1116 0A8 8 0 010 8z"
+                      fillRule="evenodd"
+                      key="2"
+                    />
+                  </svg>
+                </IconBase>
+              </BsPeopleCircle>
+            </span>
+            Test Person 2
+          </h5>
+          <h5>
+            Tuesday, May 25, 2021
+          </h5>
+        </div>
+        <div>
+          <p>
+            This is a comment
+          </p>
+        </div>
+        <div
+          className="comment-div__voting"
+        >
+          <div
+            className="comment-likes__div"
+          >
+            <span
+              className="comment-likes__span "
+              onClick={[Function]}
+            >
+              <FiThumbsDown
+                className="icon dislike "
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "none",
+                      "stroke": "currentColor",
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "2",
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  className="icon dislike "
+                >
+                  <svg
+                    className="icon dislike "
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </FiThumbsDown>
+            </span>
+            <span
+              className="comment-count"
+            />
+          </div>
+          <div
+            className="comment-likes__div"
+          >
+            <span
+              className="comment-likes__span "
+              onClick={[Function]}
+            >
+              <FiThumbsUp
+                className="icon like"
+              >
+                <IconBase
+                  attr={
+                    Object {
+                      "fill": "none",
+                      "stroke": "currentColor",
+                      "strokeLinecap": "round",
+                      "strokeLinejoin": "round",
+                      "strokeWidth": "2",
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  className="icon like"
+                >
+                  <svg
+                    className="icon like"
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                      key="0"
+                    />
+                  </svg>
+                </IconBase>
+              </FiThumbsUp>
+            </span>
+            <span
+              className="comment-count"
+            />
+          </div>
+        </div>
+      </div>
+      <Form
+        className="comment-section__form"
+        inline={false}
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <form
+          className="comment-section__form"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            controlId="formGroupName"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGroupName"
+                >
+                  Name
+                </label>
+              </FormLabel>
+              <FormControl
+                isInvalid={false}
+                onChange={[Function]}
+                placeholder="Name"
+                required={true}
+              >
+                <input
+                  className="form-control"
+                  id="formGroupName"
+                  onChange={[Function]}
+                  placeholder="Name"
+                  required={true}
+                />
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                />
+              </Feedback>
+            </div>
+          </FormGroup>
+          <FormGroup
+            controlId="formGroupTextArea"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGroupTextArea"
+                >
+                  Write your comments here
+                </label>
+              </FormLabel>
+              <FormControl
+                as="textarea"
+                isInvalid={false}
+                onChange={[Function]}
+                required={true}
+                rows={4}
+                style={
+                  Object {
+                    "marginBottom": "0",
+                  }
+                }
+              >
+                <textarea
+                  className="form-control"
+                  id="formGroupTextArea"
+                  onChange={[Function]}
+                  required={true}
+                  rows={4}
+                  style={
+                    Object {
+                      "marginBottom": "0",
+                    }
+                  }
+                />
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                />
+              </Feedback>
+            </div>
+          </FormGroup>
+          <Button
+            active={false}
+            className="comment-section__button"
+            disabled={false}
+            type="submit"
+            variant="primary"
+          >
+            <button
+              className="comment-section__button btn btn-primary"
+              disabled={false}
+              type="submit"
+            >
+              Submit
+            </button>
+          </Button>
+          <Button
+            active={false}
+            className="comment-section__button"
+            disabled={false}
+            onClick={[Function]}
+            variant="danger"
+          >
+            <button
+              className="comment-section__button btn btn-danger"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Cancel
+            </button>
+          </Button>
+        </form>
+      </Form>
+    </div>
+  </styled.div>
+</CommentSection>
+`;

@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Report Issues Page matches the snapshot 1`] = `
+<ReportIssuesPage>
+  <styled.div>
+    <div
+      className="sc-dlnjwi fCksEh"
+    >
+      <section
+        className="section"
+      >
+        <styled.div>
+          <div
+            className="sc-eCApnc ctqUFw"
+          >
+            <h2>
+              Submit Site Issues In The Form Below
+            </h2>
+            <Form
+              inline={false}
+              noValidate={true}
+              onSubmit={[Function]}
+            >
+              <form
+                className=""
+                noValidate={true}
+                onSubmit={[Function]}
+              >
+                <FormGroup
+                  controlId="formGroupName"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormLabel
+                              column={false}
+                              srOnly={false}
+                            >
+                              <label
+                                className="form-label"
+                                htmlFor="formGroupName"
+                              >
+                                First Name
+                              </label>
+                            </FormLabel>
+                            <FormControl
+                              isInvalid={false}
+                              onChange={[Function]}
+                              placeholder="First name"
+                              required={true}
+                            >
+                              <input
+                                className="form-control"
+                                id="formGroupName"
+                                onChange={[Function]}
+                                placeholder="First name"
+                                required={true}
+                              />
+                            </FormControl>
+                            <Feedback
+                              type="invalid"
+                            >
+                              <div
+                                className="invalid-feedback"
+                              />
+                            </Feedback>
+                          </div>
+                        </Col>
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormLabel
+                              column={false}
+                              srOnly={false}
+                            >
+                              <label
+                                className="form-label"
+                                htmlFor="formGroupName"
+                              >
+                                Last Name
+                              </label>
+                            </FormLabel>
+                            <FormControl
+                              isInvalid={false}
+                              onChange={[Function]}
+                              placeholder="Last name"
+                              required={true}
+                            >
+                              <input
+                                className="form-control"
+                                id="formGroupName"
+                                onChange={[Function]}
+                                placeholder="Last name"
+                                required={true}
+                              />
+                            </FormControl>
+                            <Feedback
+                              type="invalid"
+                            >
+                              <div
+                                className="invalid-feedback"
+                              />
+                            </Feedback>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </FormGroup>
+                <FormGroup
+                  controlId="formGroupEmail"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <FormLabel
+                      column={false}
+                      srOnly={false}
+                    >
+                      <label
+                        className="form-label"
+                        htmlFor="formGroupEmail"
+                      >
+                        Email
+                      </label>
+                    </FormLabel>
+                    <FormControl
+                      isInvalid={false}
+                      onChange={[Function]}
+                      placeholder="Enter email"
+                      required={true}
+                      type="email"
+                    >
+                      <input
+                        className="form-control"
+                        id="formGroupEmail"
+                        onChange={[Function]}
+                        placeholder="Enter email"
+                        required={true}
+                        type="email"
+                      />
+                    </FormControl>
+                    <Feedback
+                      type="invalid"
+                    >
+                      <div
+                        className="invalid-feedback"
+                      />
+                    </Feedback>
+                  </div>
+                </FormGroup>
+                <FormGroup
+                  controlId="formGroupSubject"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <FormLabel
+                      column={false}
+                      srOnly={false}
+                    >
+                      <label
+                        className="form-label"
+                        htmlFor="formGroupSubject"
+                      >
+                        Subject
+                      </label>
+                    </FormLabel>
+                    <FormControl
+                      as="select"
+                      isInvalid={false}
+                      onChange={[Function]}
+                      placeholder="Select"
+                      required={true}
+                    >
+                      <select
+                        className="form-control"
+                        id="formGroupSubject"
+                        onChange={[Function]}
+                        placeholder="Select"
+                        required={true}
+                      >
+                        <option>
+                          Choose...
+                        </option>
+                        <option>
+                          Subject #1
+                        </option>
+                        <option>
+                          Subject #2
+                        </option>
+                        <option>
+                          Subject #3
+                        </option>
+                      </select>
+                    </FormControl>
+                    <Feedback
+                      type="invalid"
+                    >
+                      <div
+                        className="invalid-feedback"
+                      />
+                    </Feedback>
+                  </div>
+                </FormGroup>
+                <FormGroup
+                  controlId="formGroupTextArea"
+                  onChange={[Function]}
+                >
+                  <div
+                    className="form-group"
+                    onChange={[Function]}
+                  >
+                    <FormLabel
+                      column={false}
+                      srOnly={false}
+                    >
+                      <label
+                        className="form-label"
+                        htmlFor="formGroupTextArea"
+                      >
+                        Write your comments here
+                      </label>
+                    </FormLabel>
+                    <FormControl
+                      as="textarea"
+                      isInvalid={false}
+                      required={true}
+                      rows={3}
+                    >
+                      <textarea
+                        className="form-control"
+                        id="formGroupTextArea"
+                        required={true}
+                        rows={3}
+                      />
+                    </FormControl>
+                    <Feedback
+                      type="invalid"
+                    >
+                      <div
+                        className="invalid-feedback"
+                      />
+                    </Feedback>
+                  </div>
+                </FormGroup>
+                <Button
+                  active={false}
+                  disabled={false}
+                  type="submit"
+                  variant="primary"
+                >
+                  <button
+                    className="btn btn-primary"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </Button>
+              </form>
+            </Form>
+          </div>
+        </styled.div>
+        <styled.div>
+          <div
+            className="sc-hKFxyN joAkcY"
+          >
+            <h2>
+              Frequently Asked Questions
+            </h2>
+            <FAQ
+              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum."
+              key="0"
+              title="Generic FAQ 1"
+            >
+              <styled.div>
+                <div
+                  className="sc-bdnxRM dGpsoN"
+                >
+                  <Styled(Button)
+                    aria-controls="example-collapse-text"
+                    aria-expanded={false}
+                    onClick={[Function]}
+                  >
+                    <Button
+                      active={false}
+                      aria-controls="example-collapse-text"
+                      aria-expanded={false}
+                      className="sc-gtsrHT ddrdSo"
+                      disabled={false}
+                      onClick={[Function]}
+                      variant="primary"
+                    >
+                      <button
+                        aria-controls="example-collapse-text"
+                        aria-expanded={false}
+                        className="sc-gtsrHT ddrdSo btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Generic FAQ 1
+                      </button>
+                    </Button>
+                  </Styled(Button)>
+                  <ForwardRef
+                    appear={false}
+                    getDimensionValue={[Function]}
+                    in={false}
+                    mountOnEnter={false}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      aria-expanded={null}
+                      enter={true}
+                      exit={true}
+                      in={false}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={300}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                        id="example-collapse-text"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </Transition>
+                  </ForwardRef>
+                </div>
+              </styled.div>
+            </FAQ>
+            <FAQ
+              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum."
+              key="1"
+              title="Generic FAQ 2"
+            >
+              <styled.div>
+                <div
+                  className="sc-bdnxRM dGpsoN"
+                >
+                  <Styled(Button)
+                    aria-controls="example-collapse-text"
+                    aria-expanded={false}
+                    onClick={[Function]}
+                  >
+                    <Button
+                      active={false}
+                      aria-controls="example-collapse-text"
+                      aria-expanded={false}
+                      className="sc-gtsrHT ddrdSo"
+                      disabled={false}
+                      onClick={[Function]}
+                      variant="primary"
+                    >
+                      <button
+                        aria-controls="example-collapse-text"
+                        aria-expanded={false}
+                        className="sc-gtsrHT ddrdSo btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Generic FAQ 2
+                      </button>
+                    </Button>
+                  </Styled(Button)>
+                  <ForwardRef
+                    appear={false}
+                    getDimensionValue={[Function]}
+                    in={false}
+                    mountOnEnter={false}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      aria-expanded={null}
+                      enter={true}
+                      exit={true}
+                      in={false}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={300}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                        id="example-collapse-text"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </Transition>
+                  </ForwardRef>
+                </div>
+              </styled.div>
+            </FAQ>
+            <FAQ
+              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum."
+              key="2"
+              title="Generic FAQ 3"
+            >
+              <styled.div>
+                <div
+                  className="sc-bdnxRM dGpsoN"
+                >
+                  <Styled(Button)
+                    aria-controls="example-collapse-text"
+                    aria-expanded={false}
+                    onClick={[Function]}
+                  >
+                    <Button
+                      active={false}
+                      aria-controls="example-collapse-text"
+                      aria-expanded={false}
+                      className="sc-gtsrHT ddrdSo"
+                      disabled={false}
+                      onClick={[Function]}
+                      variant="primary"
+                    >
+                      <button
+                        aria-controls="example-collapse-text"
+                        aria-expanded={false}
+                        className="sc-gtsrHT ddrdSo btn btn-primary"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Generic FAQ 3
+                      </button>
+                    </Button>
+                  </Styled(Button)>
+                  <ForwardRef
+                    appear={false}
+                    getDimensionValue={[Function]}
+                    in={false}
+                    mountOnEnter={false}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      aria-expanded={null}
+                      enter={true}
+                      exit={true}
+                      in={false}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={300}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                        id="example-collapse-text"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </Transition>
+                  </ForwardRef>
+                </div>
+              </styled.div>
+            </FAQ>
+          </div>
+        </styled.div>
+      </section>
+    </div>
+  </styled.div>
+</ReportIssuesPage>
+`;
